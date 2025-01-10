@@ -83,3 +83,7 @@ form.addEventListener('submit', function (event) {
     }, 3000)
   }
 })
+
+function redirect() {
+  window.location.href = 'https://uat.mb2.kotak.com/savings-account/upgrade'
+}
