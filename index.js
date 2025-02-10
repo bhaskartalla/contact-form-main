@@ -83,10 +83,3 @@ form.addEventListener('submit', function (event) {
     }, 3000)
   }
 })
-
-setTimeout(() => {
-  alert('Redirecting to upgrade page')
-  window.location.href = 'https://uat.mb2.kotak.com/savings-account/upgrade'
-}, 2000)
-
-function redirect() {}
